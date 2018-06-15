@@ -1,0 +1,36 @@
+obj/crypter.o: crypter.cpp /opt/openssl-1.0.1l/include/openssl/aes.h \
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h \
+ /opt/openssl-1.0.1l/include/openssl/evp.h \
+ /opt/openssl-1.0.1l/include/openssl/ossl_typ.h \
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h \
+ /opt/openssl-1.0.1l/include/openssl/symhacks.h \
+ /opt/openssl-1.0.1l/include/openssl/bio.h \
+ /opt/openssl-1.0.1l/include/openssl/crypto.h \
+ /opt/openssl-1.0.1l/include/openssl/stack.h \
+ /opt/openssl-1.0.1l/include/openssl/safestack.h \
+ /opt/openssl-1.0.1l/include/openssl/opensslv.h \
+ /opt/openssl-1.0.1l/include/openssl/objects.h \
+ /opt/openssl-1.0.1l/include/openssl/obj_mac.h \
+ /opt/openssl-1.0.1l/include/openssl/asn1.h \
+ /opt/openssl-1.0.1l/include/openssl/bn.h crypter.h allocators.h key.h \
+ serialize.h version.h clientversion.h uint256.h hash.h \
+ /opt/openssl-1.0.1l/include/openssl/sha.h \
+ /opt/openssl-1.0.1l/include/openssl/ripemd.h
+crypter.cpp /opt/openssl-1.0.1l/include/openssl/aes.h :
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h :
+ /opt/openssl-1.0.1l/include/openssl/evp.h :
+ /opt/openssl-1.0.1l/include/openssl/ossl_typ.h :
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h :
+ /opt/openssl-1.0.1l/include/openssl/symhacks.h :
+ /opt/openssl-1.0.1l/include/openssl/bio.h :
+ /opt/openssl-1.0.1l/include/openssl/crypto.h :
+ /opt/openssl-1.0.1l/include/openssl/stack.h :
+ /opt/openssl-1.0.1l/include/openssl/safestack.h :
+ /opt/openssl-1.0.1l/include/openssl/opensslv.h :
+ /opt/openssl-1.0.1l/include/openssl/objects.h :
+ /opt/openssl-1.0.1l/include/openssl/obj_mac.h :
+ /opt/openssl-1.0.1l/include/openssl/asn1.h :
+ /opt/openssl-1.0.1l/include/openssl/bn.h crypter.h allocators.h key.h :
+ serialize.h version.h clientversion.h uint256.h hash.h :
+ /opt/openssl-1.0.1l/include/openssl/sha.h :
+ /opt/openssl-1.0.1l/include/openssl/ripemd.h :

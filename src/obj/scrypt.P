@@ -1,0 +1,8 @@
+obj/scrypt.o: scrypt.cpp scrypt.h \
+ /opt/openssl-1.0.1l/include/openssl/sha.h \
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h \
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h
+scrypt.cpp scrypt.h :
+ /opt/openssl-1.0.1l/include/openssl/sha.h :
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h :
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h :

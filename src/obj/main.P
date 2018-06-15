@@ -1,0 +1,44 @@
+obj/main.o: main.cpp alert.h uint256.h util.h netbase.h serialize.h \
+ allocators.h /opt/openssl-1.0.1l/include/openssl/crypto.h \
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h \
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h \
+ /opt/openssl-1.0.1l/include/openssl/stack.h \
+ /opt/openssl-1.0.1l/include/openssl/safestack.h \
+ /opt/openssl-1.0.1l/include/openssl/opensslv.h \
+ /opt/openssl-1.0.1l/include/openssl/ossl_typ.h \
+ /opt/openssl-1.0.1l/include/openssl/symhacks.h version.h clientversion.h \
+ compat.h checkpoints.h db.h main.h bignum.h \
+ /opt/openssl-1.0.1l/include/openssl/bn.h sync.h threadsafety.h net.h \
+ /opt/openssl-1.0.1l/include/openssl/rand.h mruset.h limitedmap.h \
+ protocol.h addrman.h hash.h /opt/openssl-1.0.1l/include/openssl/sha.h \
+ /opt/openssl-1.0.1l/include/openssl/ripemd.h bloom.h script.h keystore.h \
+ crypter.h key.h scrypt.h txdb.h leveldb.h \
+ /root/newcoin/src/leveldb/include/leveldb/db.h \
+ /root/newcoin/src/leveldb/include/leveldb/iterator.h \
+ /root/newcoin/src/leveldb/include/leveldb/slice.h \
+ /root/newcoin/src/leveldb/include/leveldb/status.h \
+ /root/newcoin/src/leveldb/include/leveldb/options.h \
+ /root/newcoin/src/leveldb/include/leveldb/write_batch.h init.h wallet.h \
+ ui_interface.h walletdb.h base58.h checkqueue.h
+main.cpp alert.h uint256.h util.h netbase.h serialize.h :
+ allocators.h /opt/openssl-1.0.1l/include/openssl/crypto.h :
+ /opt/openssl-1.0.1l/include/openssl/e_os2.h :
+ /opt/openssl-1.0.1l/include/openssl/opensslconf.h :
+ /opt/openssl-1.0.1l/include/openssl/stack.h :
+ /opt/openssl-1.0.1l/include/openssl/safestack.h :
+ /opt/openssl-1.0.1l/include/openssl/opensslv.h :
+ /opt/openssl-1.0.1l/include/openssl/ossl_typ.h :
+ /opt/openssl-1.0.1l/include/openssl/symhacks.h version.h clientversion.h :
+ compat.h checkpoints.h db.h main.h bignum.h :
+ /opt/openssl-1.0.1l/include/openssl/bn.h sync.h threadsafety.h net.h :
+ /opt/openssl-1.0.1l/include/openssl/rand.h mruset.h limitedmap.h :
+ protocol.h addrman.h hash.h /opt/openssl-1.0.1l/include/openssl/sha.h :
+ /opt/openssl-1.0.1l/include/openssl/ripemd.h bloom.h script.h keystore.h :
+ crypter.h key.h scrypt.h txdb.h leveldb.h :
+ /root/newcoin/src/leveldb/include/leveldb/db.h :
+ /root/newcoin/src/leveldb/include/leveldb/iterator.h :
+ /root/newcoin/src/leveldb/include/leveldb/slice.h :
+ /root/newcoin/src/leveldb/include/leveldb/status.h :
+ /root/newcoin/src/leveldb/include/leveldb/options.h :
+ /root/newcoin/src/leveldb/include/leveldb/write_batch.h init.h wallet.h :
+ ui_interface.h walletdb.h base58.h checkqueue.h :
